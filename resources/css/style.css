@@ -1,0 +1,126 @@
+html {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: gray;
+  opacity: 0.9;
+  text-align: center;
+  border: solid thin pink;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  margin: auto;
+  width: 100%;
+  z-index: 100;
+}
+
+.navbar .container {
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+}
+
+.navbar .logo img{
+  height: 50px;
+  margin-left: 10px;
+
+}
+
+.navbar .menu {
+  display: flex;
+  align-items: center
+}
+
+.navbar .menu nav {
+  margin-right: 10px;
+}
+
+.navbar .menu span {
+  display: inline-block;
+  margin: 8px;
+  text-decoration: underline;
+}
+
+.main {
+  position: relative;
+  top: 60px;
+  z-index: 50;
+}
+
+
+}
+.main .jumbotron .hero {
+  margin: auto;
+  height: 700px;
+  width: 1200px;
+}
+
+.main .jumbotron .header {
+  position: absolute;
+  top: 50%;
+  transform: translate(0,-50%);
+  width: 100%;
+  background-color: black;
+}
+
+.tea-types {
+  position: relative;
+  top: 60px;
+}
+
+.tea-types .parent-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.tea-types .parent-container .container img {
+  height: 200px;
+  width: 300px;
+  margin: 15px 15px 10px 15px;
+}
+
+.tea-types .parent-container .container h4 {
+  margin: 10px;
+}
+
+.locations {
+  position: relative;
+  top: 120px;
+}
+
+
+.locations .parent-container {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  margin: auto;
+
+}
+
+.locations .container {
+  display: flex;
+  justify-content: center;
+  margin: 0px 40px;
+}
+
+.locations .container div {
+  margin: 0 40px;
+  background-color: black;
+  width: 300px;
+}
+
+.locations .container div p {
+  padding: 15px;
+}
+
+.footer {
+  position: relative;
+  top: 0;
+}
