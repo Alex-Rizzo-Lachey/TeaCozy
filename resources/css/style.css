@@ -2,10 +2,9 @@ html {
   font-family: Helvetica;
   font-size: 22px;
   color: seashell;
-  background-color: gray;
+  background-color: black;
   opacity: 0.9;
   text-align: center;
-  border: solid thin pink;
 }
 
 .navbar {
@@ -48,31 +47,25 @@ html {
 }
 
 .main {
+  width: 100%;
+}
+
+.jumbotron .hero {
   position: relative;
   top: 60px;
-  z-index: 50;
-}
-
-
-}
-.main .jumbotron .hero {
-  margin: auto;
+  width: 100%;
   height: 700px;
-  width: 1200px;
+  overflow: hidden;
 }
 
-.main .jumbotron .header {
+.jumbotron .header {
   position: absolute;
   top: 50%;
-  transform: translate(0,-50%);
   width: 100%;
+  height: auto;
   background-color: black;
 }
 
-.tea-types {
-  position: relative;
-  top: 60px;
-}
 
 .tea-types .parent-container {
   display: flex;
@@ -90,18 +83,18 @@ html {
   margin: 10px;
 }
 
+
 .locations {
   position: relative;
-  top: 120px;
+  margin-top: 70px;
 }
 
-
 .locations .parent-container {
-  position: absolute;
-  top: 50%;
-  width: 100%;
-  margin: auto;
-
+ position: absolute;
+ top: 50%;
+ transform: translate(0,-50%);
+ width: 100%;
+ height: 500px;
 }
 
 .locations .container {
@@ -121,6 +114,11 @@ html {
 }
 
 .footer {
-  position: relative;
-  top: 0;
+  height: 200px;
+}
+
+.copyright {
+  margin-left: 20px;
+  text-align: left;
+
 }
